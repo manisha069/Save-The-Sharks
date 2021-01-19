@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bd3">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,23 +17,27 @@
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="250dp"
             android:orientation="horizontal"
-            android:layout_marginStart="20dp"
-            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
             android:textColor="@color/blacks"
             android:textAllCaps="true"
             />
 
         <Button
             android:id="@+id/button"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/btn"
             android:layout_width="200dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:gravity="center"
             android:orientation="horizontal"
             android:onClick="open"
+            android:layout_marginTop="600dp"
             android:text="@string/save_the_blahajs"
-            android:layout_centerVertical="true"
+            android:textColor="@color/blacks"
+            android:textSize="15sp"
             android:layout_centerHorizontal="true"/>
 
 

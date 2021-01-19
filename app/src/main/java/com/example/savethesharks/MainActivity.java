@@ -22,16 +22,17 @@ public class MainActivity extends AppCompatActivity {
 
     public String print_fact()
     {
-       String[] facts={"Did you know? \n Sharks do not have bones!",
-           "Did you know? \n Shark skin feels similar to sandpaper.",
-           "Did you know? \n Scientists age sharks by counting the rings on their vertebrae.",
-           "Did you know? \n Each whale shark’s spot pattern is unique as a fingerprint. ",
+       String[] facts={
+               "Did you know? \n Sharks do not have bones!",
+               "Did you know? \n Shark skin feels similar to sandpaper!",
+               "Did you know? \n Scientists age sharks by counting the rings on their vertebrae!",
+               "Did you know? \n Each whale shark’s spot pattern is unique as a fingerprint!",
                "Did you know? \n THERE ARE OVER 500 SPECIES OF SHARK!",
-               "Did you know? \n Goblin sharks can be a bright pink colour",
+               "Did you know? \n Goblin sharks can be a bright pink colour!",
                "Did you know? \n hammerhead sharks have hammer-shaped heads (duh!)",
-               "Did you know? \n MOST SHARKS ARE COLD-BLOODED",
-               "Did you know? \n SHARKS HAVE A SIXTH SENSE",
-               "Did you know? \n Sharks have been around for over 400 million years"
+               "Did you know? \n MOST SHARKS ARE COLD-BLOODED!",
+               "Did you know? \n SHARKS HAVE A SIXTH SENSE!",
+               "Did you know? \n Sharks have been around for over 400 million years!"
        };
        Random rand= new Random();
        int x= rand.nextInt(10);
